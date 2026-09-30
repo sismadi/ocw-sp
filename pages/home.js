@@ -2,16 +2,16 @@ pages.home = [
     // 1. HERO
     {
         section: 'hero',
-        title: 'Open Courseware Pemrograman Web',
-        tagline: 'Dari HTML Boilerplate hingga Single Page Application — Satu Semester, Satu Aplikasi Nyata.',
-        description: 'Platform belajar terbuka untuk mata kuliah Pemrograman Web. 16 modul terstruktur memandu mahasiswa membangun aplikasi CMS fungsional berbasis Vanilla JS — tanpa framework eksternal, tanpa jalan pintas.',
+        title: 'Open Courseware Simulasi & Pemodelan',
+        tagline: 'Dari Terminologi hingga Simulasi Antrean Terpadu — Satu Semester, Satu SimLab.',
+        description: 'Platform belajar terbuka untuk mata kuliah Simulasi & Pemodelan. 16 modul terstruktur memandu mahasiswa membangun SimLab — simulasi Discrete Event berbasis JavaScript untuk sistem antrean dan produksi nyata.',
         badges: [
-            'Vanilla JS ES6+',
-            'Zero-Dependency',
+            'JavaScript',
+            'Discrete Event Simulation',
+            'Random Number Generator',
             '16 Modul',
-            'CRUD + SPA',
-            'License: MIT',
-            'DOI: 10.6084/m9.figshare.32400957'
+            'SimLab',
+            'License: MIT'
         ],
         cta: {
             text: 'Mulai Belajar',
@@ -20,28 +20,28 @@ pages.home = [
         imgClass: 'di-donat'
     },
 
-    // 2. KEY FEATURES — diambil dari 4 bagian kurikulum learn.js
+    // 2. KEY FEATURES — diambil dari 4 bagian kurikulum sp.js
     {
         section: 'features',
         items: [
             {
                 icon: 'di-code',
-                title: 'Fondasi & Antarmuka',
-                content: 'HTML5 semantik, CSS3 modern (Flexbox, Grid, Variables), komponen modal dan toast notification. 4 pertemuan untuk membangun UI yang siap disambung logika.',
+                title: 'Fondasi & Prinsip DES',
+                content: 'Terminologi pemodelan, siklus hidup simulasi, prinsip Discrete Event Simulation, single server queue, multiserver, dan job shop. 4 pertemuan untuk membangun kerangka simulasi.',
                 linkText: 'Mulai Bagian 1 &raquo;',
                 linkTarget: 'learn/modul01'
             },
             {
                 icon: 'di-web',
-                title: 'JavaScript & Logika UI',
-                content: 'DOM selection, event listeners, renderTable(), validasi input, dan prototipe CRUD penuh. Diuji di UTS dengan standar industri.',
+                title: 'Random, Distribusi & UTS',
+                content: 'Random Number Generator (LCG), uji kualitas RNG, transformasi random variate (inverse, Box-Muller), distribusi diskrit dan kontinu, serta fitting data. Diuji di UTS dengan hitungan manual.',
                 linkText: 'Mulai Bagian 2 &raquo;',
                 linkTarget: 'learn/modul05'
             },
             {
                 icon: 'di-setting',
-                title: 'Data, Storage & Async',
-                content: 'Object & Array ES6+, JSON, LocalStorage persistensi, Fetch API dengan pola hydration. Dari aplikasi sementara menjadi aplikasi yang benar-benar berfungsi.',
+                title: 'Analisis, Verifikasi & Pemodelan',
+                content: 'Analisis input data, uji chi-square, verifikasi dengan trace, validasi statistik dan uji t, pemodelan sistem nyata, jaringan antrean, dan analisis bottleneck.',
                 linkText: 'Mulai Bagian 3 &raquo;',
                 linkTarget: 'learn/modul09'
             }
@@ -54,49 +54,49 @@ pages.home = [
         leftCol: {
             subtitle: 'Kurikulum 16 Modul',
             lines: [
-                '### Bagian 1: Fondasi & Antarmuka',
-                '**P1** — Pengenalan Ekosistem Web & Kontrak Perkuliahan',
-                '**P2** — HTML5: Struktur Data & Semantik Antarmuka',
-                '**P3** — CSS3: Desain & Layout Modern',
-                '**P4** — Manipulasi Layout & Komponen (Modal, Toast)',
+                '### Bagian 1: Fondasi Pemodelan & Simulasi',
+                '**P1** — Kontrak Kuliah & Pengantar Simulasi & Pemodelan',
+                '**P2** — Konsep & Terminologi Pemodelan dan Simulasi',
+                '**P3** — Langkah-langkah Simulasi & Jenis Model',
+                '**P4** — Prinsip DES, Single Server Queue, Multiserver',
                 '---',
-                '### Bagian 2: JavaScript & Logika UI',
-                '**P5** — Vanilla JS & Manipulasi DOM',
-                '**P6** — Interaktivitas & Logika Render',
-                '**P7** — Review & Integrasi Prototipe',
+                '### Bagian 2: Random, Distribusi & UTS',
+                '**P5** — Random Number Generator & Random Variate',
+                '**P6** — Distribusi Diskrit & Distribusi Kontinu',
+                '**P7** — Review & Integrasi P2–P6',
                 '**P8** — UTS: Evaluasi Tengah Semester',
                 '---',
-                '### Bagian 3: Data, Storage & Async',
-                '**P9** — Advanced JS: Object, Array & JSON',
-                '**P10** — Persistensi Data dengan LocalStorage',
-                '**P11** — Asynchronous JS & Fetch API',
-                '**P12** — CRUD: Create & Read dengan Fetch + Hydration',
+                '### Bagian 3: Analisis, Verifikasi & Pemodelan',
+                '**P9** — Dasar Pemodelan & Random Discrete Simulation',
+                '**P10** — Analisis Input Data & Teknik Verifikasi',
+                '**P11** — Analisis Hasil & Validasi',
+                '**P12** — Pemodelan',
                 '---',
-                '### Bagian 4: CRUD Penuh & Finalisasi',
-                '**P13** — CRUD: Update & Delete',
-                '**P14** — Integrasi Proyek & Finalisasi',
-                '**P15** — Final Review & Demo Project',
-                '**P16/UAS** — Pengembangan SPA: CMS Fungsional'
+                '### Bagian 4: Pemodelan Lanjut, Simulasi & Evaluasi Akhir',
+                '**P13** — Pemodelan Lanjut',
+                '**P14** — Simulasi',
+                '**P15** — Final Review & Demo P9–P14',
+                '**P16/UAS** — Demo Terpadu SimLab'
             ]
         },
         rightCol: {
             subtitle: 'Target Proyek & Cara Sitasi',
             lines: [
                 '### Target Proyek Akhir Semester',
-                'Mahasiswa membangun **Niura Article System** — CMS berbasis Single Page Application dengan:',
+                'Mahasiswa membangun **SimLab** — simulasi Discrete Event berbasis JavaScript untuk sistem antrean dan produksi:',
                 '```javascript',
-                '// Fitur yang wajib berfungsi di UAS:\n// ✅ SPA Navigation (Dashboard / List / Add-Edit)\n// ✅ Full CRUD: Create, Read, Update, Delete\n// ✅ Persistensi LocalStorage + Fetch Hydration\n// ✅ Responsif di mobile\n// ✅ Toast Notification & Modal Edit\n// ✅ Search real-time\n// ✅ Dashboard Stats (total artikel, bulan ini)',
+                '// Fitur yang wajib berfungsi di UAS:\n// ✅ Model DES: entitas, event, antrean, server\n// ✅ RNG (LCG) + uji rata-rata, varians, chi-square\n// ✅ Distribusi diskrit & kontinu (eksponensial, normal, Poisson)\n// ✅ Simulasi single server & multiserver\n// ✅ Jaringan antrean & analisis bottleneck\n// ✅ Interval kepercayaan & uji t validasi\n// ✅ Visualisasi grafik & laporan analisis\n// ✅ Dokumentasi model, asumsi, dan seed',
                 '```',
                 '---',
                 '### Bobot Penilaian UAS',
-                'skill:30%:Logika CRUD Penuh (C-R-U-D tanpa error):Utama',
-                'skill:20%:Arsitektur SPA (min 3 menu, tanpa reload):Arsitektur',
-                'skill:20%:Persistensi Data (LocalStorage + Fetch):Teknis',
-                'skill:20%:UI/UX Responsif & CSS Variables:Desain',
-                'skill:10%:Kualitas Kode & Dokumentasi:Profesional',
+                'skill:25%:Fungsionalitas simulasi (DES + RNG + distribusi):Utama',
+                'skill:25%:Kualitas analisis & validasi (CI, uji t):Teknis',
+                'skill:20%:Inovasi & kedalaman (jaringan, bottleneck):Inovasi',
+                'skill:15%:Dokumentasi & repo (model, asumsi):Profesional',
+                'skill:15%:Presentasi & demo simulasi:Presentasi',
                 '---',
                 '### How to Cite This Courseware',
-                '**Wawan Sismadi.** (2026). *OCW-PW: Open Courseware Pemrograman Web*. Figshare. DOI: 10.6084/m9.figshare.32400957'
+                '**Yogi Kristiyanto.** (2026). *OCW-SP: Open Courseware Simulasi & Pemodelan*. Figshare.'
             ]
         }
     }
